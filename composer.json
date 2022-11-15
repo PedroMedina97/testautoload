@@ -1,0 +1,19 @@
+{
+    "name": "pedro-medina/dev",
+    "description": "API TEST",
+    "autoload": {
+        "psr-4":{
+            "Classes\\": "models/classes/",
+            "Abstracts\\": "models/abstract/",
+            "Utils\\": "config/"
+        }
+    },
+    "files":[
+        "config/db.php"
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0",
+        "easy-projects/simple-router": "^7.2",
+        "firebase/php-jwt": "^6.3"
+    }
+}
